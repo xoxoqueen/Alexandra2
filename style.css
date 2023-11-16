@@ -1,21 +1,40 @@
-p:hover {
-    color: azure;
+.visible 
+{
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.op_1 {
+    opacity: 1;
+}
+
+.op_0 {
+    opacity: 0;
+}
+
+.op_05 {
+    opacity: 0.5;
+}
+
+.none {
+    display: none;
     font-weight: bold;
 }
 
-p::before {
-    content: 'Hello';
-    color: aqua;
+.inline {
+    display: inline;
     font-weight: bold;
 }
 
-p::after {
-    content: 'Bye!';
-    color: aqua;
+.block {
+    display: block;
     font-weight: bold;
 }
 
-p::selection {
-    background-color: blueviolet;
-    color: white;
+h3 {
+    background-color: aquamarine;
+    text-align: center;
 }
