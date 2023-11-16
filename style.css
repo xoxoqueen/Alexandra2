@@ -1,13 +1,21 @@
-div a {
-    background-color: antiquewhite;
-    padding: 20px;
+p:hover {
+    color: azure;
+    font-weight: bold;
 }
 
-a>h1 {
-    background-color: blue;
+p::before {
+    content: 'Hello';
+    color: aqua;
+    font-weight: bold;
+}
+
+p::after {
+    content: 'Bye!';
+    color: aqua;
+    font-weight: bold;
+}
+
+p::selection {
+    background-color: blueviolet;
     color: white;
-}
-
-a + a {
-    background-color: red;
 }
