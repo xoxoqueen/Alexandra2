@@ -1,40 +1,32 @@
-.visible 
-{
-    visibility: visible;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.hidden {
-    visibility: hidden;
-}
-
-.op_1 {
-    opacity: 1;
-}
-
-.op_0 {
-    opacity: 0;
-}
-
-.op_05 {
-    opacity: 0.5;
-}
-
-.none {
-    display: none;
-    font-weight: bold;
-}
-
-.inline {
-    display: inline;
-    font-weight: bold;
-}
-
-.block {
-    display: block;
-    font-weight: bold;
-}
-
-h3 {
-    background-color: aquamarine;
+.nav {
+    background-color: rgb(226, 155, 205);
+    height: 20px;
+    padding: 10px;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.banner {
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.content {
+    background-color: rgb(184, 155, 205);
+    height: 400px;
+}
+.footer {
+    background-color: rgb(184, 246, 205);
+    height: 20px;
+    height: 100px;
+}
+
+img {
+    width: 100%;
+    filter: grayscale(100%) invert(100%);
 }
